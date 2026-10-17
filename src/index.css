@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary — sage green scale */
+  --color-primary-50:  #f3f7ef;
+  --color-primary-100: #e4ecdb;
+  --color-primary-200: #c9d9b8;
+  --color-primary-300: #99BC85;  /* your light green */
+  --color-primary-400: #85a971;
+  --color-primary-500: #6f9159;
+  --color-primary-600: #587446;
+  --color-primary-700: #465c38;
+  --color-primary-800: #384a2e;
+  --color-primary-900: #2b3a24;
+
+  /* Secondary — olive scale */
+  --color-secondary-300: #8b9668;
+  --color-secondary-400: #758155;
+  --color-secondary-500: #626F47;  /* your dark green */
+  --color-secondary-600: #4f5939;
+  --color-secondary-700: #3d442c;
+
+  /* Optional single-value aliases so bg-primary still works */
+  --color-primary: #99BC85;
+  --color-secondary: #626F47;
+}
